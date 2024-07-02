@@ -72,3 +72,58 @@
   margin: 0;
   color: #333;
 }
+
+@media (max-width: 768px) {
+  .foot-head {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home a {
+    margin: 5px 0;
+  }
+
+  .foot-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .last {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .foot-logo img {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .socials img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .foot-middle {
+    margin: 15px 0;
+  }
+
+  .foot-bottom img {
+    height: 16px;
+    margin-right: 5px;
+  }
+
+  .foot-bottom p,
+  .last p {
+    font-size: 0.9rem;
+  }
+}
+

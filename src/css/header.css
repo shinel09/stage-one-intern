@@ -55,22 +55,55 @@
   background-color: #5753e0;
 }
 
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 30px;
+  }
 
+  .header-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
+  .content {
+    max-width: 100%;
+  }
 
+  .content-one h4 {
+    font-size: 1rem;
+  }
 
-/* .header{
-  border: 1px solid yellow;
-  display: flex;
-  justify-content: space-between;
+  .content-two h1 {
+    font-size: 2rem;
+  }
 
+  .content-two p {
+    font-size: 1rem;
+  }
 }
 
-.content{
- width: 791px;
-}
+@media (max-width: 480px) {
+  .header {
+    padding: 20px;
+    margin: 10px;
+  }
 
-.header-img img{
-  height: 100%;
-  width: 100%;
-} */
+  .content-one h4 {
+    font-size: 0.9rem;
+  }
+
+  .content-two h1 {
+    font-size: 1.8rem;
+  }
+
+  .content-two p {
+    font-size: 0.9rem;
+  }
+
+  .hero-button {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

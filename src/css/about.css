@@ -44,3 +44,50 @@
 }
 
 
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-label {
+    font-size: 1.1rem;
+  }
+
+  .about-content h4 {
+    font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 15px;
+  }
+
+  .about-label {
+    font-size: 1rem;
+  }
+
+  .about-content h4 {
+    font-size: 1.8rem;
+  }
+
+  .about-description {
+    font-size: 1.2rem;
+  }
+}
