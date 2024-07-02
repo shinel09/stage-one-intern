@@ -1,0 +1,113 @@
+/* src/css/blog.css */
+.blog {
+  padding: 50px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.section-head {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.section-head p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0;
+}
+
+.section-head h5 {
+  font-size: 2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.button {
+  text-align: right;
+  margin-top: -40px; /* adjust this to align the button properly */
+}
+
+.git-button {
+  background-color: #6C63FF; /* Adjust to your preferred color */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.git-button:hover {
+  background-color: #4b46d1;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; /* adjust this for spacing between cards */
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-basis: calc(33.333% - 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+.img-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-card {
+  padding: 20px;
+  flex: 1;
+}
+
+.text-card h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text-card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.web .site {
+  background-color: transparent;
+  color: #6C63FF;
+  padding: 5px 0;
+  text-decoration: none;
+  border: none;
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.web .site::after {
+  content: " \2197"; /* Unicode for an arrow symbol */
+  font-size: 1rem;
+}
+
+.web .site:hover {
+  color: #4b46d1;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex-basis: 100%;
+  }
+}

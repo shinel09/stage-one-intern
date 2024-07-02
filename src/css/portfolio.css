@@ -1,0 +1,53 @@
+.body{
+  width: 1920px;
+  background-color:#FFFFFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar{
+  width: 1750px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  height: 44px;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav :hover{
+  color: purple;
+}
+
+.one,
+.two,
+.three,
+.four{
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+.contact{
+  display: inline-block;
+  border: 1px solid purple;
+  color: purple;
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
